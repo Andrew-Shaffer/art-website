@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Istok+Web|Pathway+Gothic+One');
+
+
+/*
+
+    font-family: 'Pathway Gothic One', sans-serif;
+
+    font-family: 'Istok Web', sans-serif;
+
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+header {
+    background: #71D038;
+}
+
+header img {
+    height: 100px;
+    float: left;
+}
+
+nav {
+    position: absolute;
+    background: #23C78C;
+}
+
+nav li {
+    display: inline-block;
+}
+
+#banner {
+    font-size: 80px;
+}
+
+#hero {
+    background: url(../img/art%20rainbow.jpg);
+    background-size: cover;
+    height: 300px;
+    text-align: justify;
+}
+
+#hero h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#overlay {
+    padding: 125px;
+    background: linear-gradient(rgba(255, 255, 255, .25), rgba(255, 255, 255, 1));
+}
+
+#main img {
+    float: right;
+    height: 200px;
+}
+
+#main {
+    overflow: auto;
+    ;
+    background: #23C78C;
+    text-align: center;
+}
+
+#second img {
+    float: left;
+    height: 200px;
+}
+
+#second {
+    background-color: #2D81C2;
+    height: 200px;
+    text-align: center;
+}
+
+#b {
+    margin: 10px 30px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #EA522C;
+}
+
+.btn {
+    margin: 5px;
+    padding: 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #EA522C;
+    transform: scale(1.5, 1.5)
+}
